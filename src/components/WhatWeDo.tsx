@@ -151,7 +151,7 @@ const WhatWeDo = () => {
         >
           <div className="aspect-[21/9] relative">
             <img
-              src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?w=1400&h=600&fit=crop"
+              src="https://t4.ftcdn.net/jpg/06/50/67/83/360_F_650678374_fioqInkUlRgFLs2NGWODZNLMvmw4p9ku.jpg"
               alt="Community helping each other"
               className="w-full h-full object-cover"
             />
@@ -177,15 +177,15 @@ const WhatWeDo = () => {
                   transition={{ delay: 0.5 }}
                 >
                   <div className="text-center">
-                    <div className="text-2xl font-bold text-primary">1000+</div>
+                    <div className="text-2xl font-bold text-primary">10+</div>
                     <div className="text-white/60 text-sm">Volunteers</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-2xl font-bold text-coral">200+</div>
+                    <div className="text-2xl font-bold text-coral">20+</div>
                     <div className="text-white/60 text-sm">Programs</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-2xl font-bold text-accent">50+</div>
+                    <div className="text-2xl font-bold text-accent">1+</div>
                     <div className="text-white/60 text-sm">Cities</div>
                   </div>
                 </motion.div>
