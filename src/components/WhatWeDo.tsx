@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { motion, type Easing } from "framer-motion";
 import { Heart, Users, Lightbulb, Rocket } from "lucide-react";
 
 const services = [
