@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { motion, type Easing } from "framer-motion";
 import { Heart, HandHeart, Share2, Users, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -21,7 +21,7 @@ const JoinUs = () => {
       scale: 1,
       transition: {
         duration: 0.5,
-        ease: "easeOut",
+        ease: [0.25, 0.1, 0.25, 1] as Easing,
       },
     },
   };

@@ -1,5 +1,7 @@
-import { motion } from "framer-motion";
+import { motion, type Easing } from "framer-motion";
 import { Target, Eye, Sparkles, Heart } from "lucide-react";
+import missionImg from "@/assets/mission-children.jpeg";
+import visionImg from "@/assets/vision-community.jpeg";
 
 const Mission = () => {
   const containerVariants = {
@@ -20,7 +22,7 @@ const Mission = () => {
       rotateX: 0,
       transition: {
         duration: 0.7,
-        ease: "easeOut",
+        ease: [0.25, 0.1, 0.25, 1] as Easing,
       },
     },
   };
@@ -119,8 +121,8 @@ const Mission = () => {
                 transition={{ delay: 0.3 }}
               >
                 <motion.img
-                  src="https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=500&h=250&fit=crop"
-                  alt="People helping community"
+                  src={missionImg}
+                  alt="Children in classroom - Willing community"
                   className="w-full h-40 object-cover"
                   whileHover={{ scale: 1.05 }}
                   transition={{ duration: 0.4 }}
@@ -160,8 +162,8 @@ const Mission = () => {
                 transition={{ delay: 0.4 }}
               >
                 <motion.img
-                  src="file:///D:/img/WhatsApp%20Image%202026-03-09%20at%206.39.44%20PM.jpeg"
-                  alt="Happy community celebration"
+                  src={visionImg}
+                  alt="Women and children community support"
                   className="w-full h-40 object-cover"
                   whileHover={{ scale: 1.05 }}
                   transition={{ duration: 0.4 }}
