@@ -168,12 +168,12 @@ const JoinUs = () => {
             viewport={{ once: true }}
             transition={{ delay: 0.2 }}
           >
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            /*<div className="grid grid-cols-2 md:grid-cols-4 gap-6">
               {[
-                { icon: Users, value: "2,000+", label: "Volunteers", color: "text-primary" },
-                { icon: Heart, value: "10,000+", label: "Lives Changed", color: "text-coral" },
-                { icon: HandHeart, value: "500+", label: "Programs", color: "text-accent-foreground" },
-                { icon: Sparkles, value: "100+", label: "Communities", color: "text-lavender-foreground" },
+                { icon: Users, value: "10", label: "Volunteers", color: "text-primary" },
+                { icon: Heart, value: "50", label: "Lives Changed", color: "text-coral" },
+                { icon: HandHeart, value: "5", label: "Programs", color: "text-accent-foreground" },
+                { icon: Sparkles, value: "2", label: "Communities", color: "text-lavender-foreground" },
               ].map((stat, index) => (
                 <motion.div
                   key={stat.label}
