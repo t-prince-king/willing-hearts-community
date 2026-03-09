@@ -160,7 +160,7 @@ const Mission = () => {
                 transition={{ delay: 0.4 }}
               >
                 <motion.img
-                  src="blob:https://web.whatsapp.com/9b25d962-9fe5-49df-96f7-75b3b1021310"
+                  src="file:///D:/img/WhatsApp%20Image%202026-03-09%20at%206.39.44%20PM.jpeg"
                   alt="Happy community celebration"
                   className="w-full h-40 object-cover"
                   whileHover={{ scale: 1.05 }}
