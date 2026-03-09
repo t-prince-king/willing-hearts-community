@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { motion, type Easing } from "framer-motion";
 import { Heart, HandHeart, Share2, Users, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
