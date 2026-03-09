@@ -121,8 +121,8 @@ const Mission = () => {
                 transition={{ delay: 0.3 }}
               >
                 <motion.img
-                  src="https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=500&h=250&fit=crop"
-                  alt="People helping community"
+                  src={missionImg}
+                  alt="Children in classroom - Willing community"
                   className="w-full h-40 object-cover"
                   whileHover={{ scale: 1.05 }}
                   transition={{ duration: 0.4 }}
