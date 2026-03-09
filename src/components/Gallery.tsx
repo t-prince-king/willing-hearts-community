@@ -11,6 +11,9 @@ import gallery7 from "@/assets/gallery-7.jpg";
 import gallery8 from "@/assets/gallery-8.jpg";
 import gallery9 from "@/assets/gallery-9.jpg";
 import gallery10 from "@/assets/gallery-10.jpg";
+import gallery11 from "@/assets/gallery-11.jpg";
+import gallery12 from "@/assets/gallery-12.jpg";
+import gallery13 from "@/assets/gallery-13.jpg";
 
 const galleryImages = [
   { id: 1, url: gallery1, title: "Children Learning Together", category: "Children" },
@@ -23,6 +26,9 @@ const galleryImages = [
   { id: 8, url: gallery8, title: "Snack Time Together", category: "Children" },
   { id: 9, url: gallery9, title: "Outdoor Fun", category: "Youth" },
   { id: 10, url: gallery10, title: "Helping Hands", category: "Community" },
+  { id: 11, url: gallery11, title: "Feeding the Little Ones", category: "Children" },
+  { id: 12, url: gallery12, title: "Mealtime with Love", category: "Community" },
+  { id: 13, url: gallery13, title: "Sharing a Meal Together", category: "Children" },
 ];
 
 const Gallery = () => {
@@ -65,10 +71,10 @@ const Gallery = () => {
           </p>
         </motion.div>
 
-        {/* Gallery Grid - masonry-like with varying sizes */}
+        {/* Gallery Grid */}
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {galleryImages.map((image, index) => {
-            const isLarge = index === 0 || index === 5;
+            const isLarge = index === 0 || index === 5 || index === 10;
             return (
               <motion.div
                 key={image.id}

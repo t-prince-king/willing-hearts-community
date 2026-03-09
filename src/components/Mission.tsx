@@ -1,7 +1,7 @@
 import { motion, type Easing } from "framer-motion";
 import { Target, Eye, Sparkles, Heart } from "lucide-react";
-import missionImg from "@/assets/mission-children.jpeg";
-import visionImg from "@/assets/vision-community.jpeg";
+import missionImg from "@/assets/gallery-1.jpg";
+import visionImg from "@/assets/gallery-5.jpg";
 
 const Mission = () => {
   const containerVariants = {
