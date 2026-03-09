@@ -105,9 +105,9 @@ const Mission = () => {
                 Our Mission
               </h3>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                To <span className="text-primary font-semibold">empower and transform lives</span> through 
-                care, opportunity, and community love. We believe that small acts of kindness 
-                can grow into big, beautiful changes.
+                to <span className="text-primary font-semibold">Our mission is to uplift and empower </span> vulnerable communities by providing practical support ,sustainable solution on life changing opportunities. We are committed to supporting women, children, single mothers, and low income families through access to food supports initiatives, skills development, education and community empowerment programs. Through partnerships, innovation and compassion, we work to improve lives, restore dignity, and create 
+                lasting social and economic impact starting in
+                 Kigali and expanding across Rwanda.
               </p>
 
               {/* Mission image */}
@@ -145,9 +145,10 @@ const Mission = () => {
                 Our Vision
               </h3>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                A warm world where <span className="text-coral font-semibold">women feel supported</span>, 
-                children feel safe, and youth feel inspired to chase their dreams 
-                with confidence and joy.
+                <span className="text-coral font-semibold">Our vision is to build a compassionate community </span>, 
+               that rise together through support opportunity and sustainable development. We envision a society where every woman child and vulnerable person leaves you dignity hope and equal opportunities . We dream of a strong self-reliant community where poverty  is reduced, families are empowered and no one is Left behind especially single mothers disadvantages children and the elderly.  A society that cherishes and advocates 
+               for the well-being diversity and 
+               inclusion of marginalized women and girls.
               </p>
 
               {/* Vision image */}
