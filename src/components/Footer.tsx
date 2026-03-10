@@ -142,7 +142,7 @@ const Footer = () => {
                   whileHover={{ x: 5 }}
                 >
                   <Mail className="w-4 h-4" />
-                  hello@willing.org
+                  wcommunityimpact@gmail.com
                 </motion.a>
               </li>
               <li>
@@ -152,7 +152,7 @@ const Footer = () => {
                   whileHover={{ x: 5 }}
                 >
                   <Phone className="w-4 h-4" />
-                  +1 (234) 567-890
+                  + 250 78622065
                 </motion.a>
               </li>
               <li>
