@@ -1,5 +1,9 @@
 import { motion, type Easing } from "framer-motion";
 import { Heart, Users, Lightbulb, Rocket } from "lucide-react";
+import womenImg from "@/assets/women-empowerment.jpg";
+import childrenImg from "@/assets/children-care.jpg";
+import youthDevImg from "@/assets/youth-development.jpg";
+import youthEmpImg from "@/assets/youth-empowerment.jpg";
 
 const services = [
   {
@@ -8,7 +12,7 @@ const services = [
     description: "Supporting women through education, skills training, and confidence-building programs.",
     color: "bg-coral/10 text-coral",
     borderColor: "hover:border-coral/40",
-    image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=400&h=300&fit=crop",
+    image: womenImg,
   },
   {
     icon: Users,
