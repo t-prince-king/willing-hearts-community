@@ -12,7 +12,7 @@ const services = [
     description: "Supporting women through education, skills training, and confidence-building programs.",
     color: "bg-coral/10 text-coral",
     borderColor: "hover:border-coral/40",
-    image: womenImg,
+    image: youthEmpImg,
   },
   {
     icon: Users,
@@ -36,7 +36,7 @@ const services = [
     description: "Turning passion into purpose with tools, guidance, and opportunities to succeed.",
     color: "bg-lavender text-lavender-foreground",
     borderColor: "hover:border-lavender",
-    image: youthEmpImg,
+    image: womenImg,
   },
 ];
 
