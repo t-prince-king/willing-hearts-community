@@ -28,7 +28,7 @@ const services = [
     description: "Helping young people discover their talents and build confidence through mentorship.",
     color: "bg-accent text-accent-foreground",
     borderColor: "hover:border-accent",
-    image: "https://images.unsplash.com/photo-1529390079861-591f4f0a8a1f?w=400&h=300&fit=crop",
+    image: youthDevImg,
   },
   {
     icon: Rocket,
