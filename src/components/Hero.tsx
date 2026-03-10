@@ -179,9 +179,9 @@ const Hero = () => {
             transition={{ duration: 0.6, delay: 0.4 }}
           >
             {[
-              { value: "500+", label: "Lives Touched", color: "text-primary" },
-              { value: "50+", label: "Communities", color: "text-coral" },
-              { value: "100%", label: "Heart & Love", color: "text-accent-foreground" },
+              { value: "up comming", label: "Lives Touched", color: "text-primary" },
+              { value: "2+", label: "Communities", color: "text-coral" },
+              { value: "it up to you", label: "Heart & Love", color: "text-accent-foreground" },
             ].map((stat, index) => (
               <motion.div
                 key={stat.label}
