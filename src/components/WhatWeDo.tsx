@@ -1,5 +1,9 @@
 import { motion, type Easing } from "framer-motion";
 import { Heart, Users, Lightbulb, Rocket } from "lucide-react";
+import womenImg from "@/assets/women-empowerment.jpg";
+import childrenImg from "@/assets/children-care.jpg";
+import youthDevImg from "@/assets/youth-development.jpg";
+import youthEmpImg from "@/assets/youth-empowerment.jpg";
 
 const services = [
   {
@@ -8,7 +12,7 @@ const services = [
     description: "Supporting women through education, skills training, and confidence-building programs.",
     color: "bg-coral/10 text-coral",
     borderColor: "hover:border-coral/40",
-    image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=400&h=300&fit=crop",
+    image: womenImg,
   },
   {
     icon: Users,
@@ -16,7 +20,7 @@ const services = [
     description: "Creating safe, happy spaces where children can learn, grow, and feel protected.",
     color: "bg-primary/10 text-primary",
     borderColor: "hover:border-primary/40",
-    image: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=400&h=300&fit=crop",
+    image: childrenImg,
   },
   {
     icon: Lightbulb,
@@ -24,7 +28,7 @@ const services = [
     description: "Helping young people discover their talents and build confidence through mentorship.",
     color: "bg-accent text-accent-foreground",
     borderColor: "hover:border-accent",
-    image: "https://images.unsplash.com/photo-1529390079861-591f4f0a8a1f?w=400&h=300&fit=crop",
+    image: youthDevImg,
   },
   {
     icon: Rocket,
@@ -32,7 +36,7 @@ const services = [
     description: "Turning passion into purpose with tools, guidance, and opportunities to succeed.",
     color: "bg-lavender text-lavender-foreground",
     borderColor: "hover:border-lavender",
-    image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=300&fit=crop",
+    image: youthEmpImg,
   },
 ];
 
