@@ -36,7 +36,7 @@ const services = [
     description: "Turning passion into purpose with tools, guidance, and opportunities to succeed.",
     color: "bg-lavender text-lavender-foreground",
     borderColor: "hover:border-lavender",
-    image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=300&fit=crop",
+    image: youthEmpImg,
   },
 ];
 
