@@ -20,7 +20,7 @@ const services = [
     description: "Creating safe, happy spaces where children can learn, grow, and feel protected.",
     color: "bg-primary/10 text-primary",
     borderColor: "hover:border-primary/40",
-    image: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=400&h=300&fit=crop",
+    image: childrenImg,
   },
   {
     icon: Lightbulb,
